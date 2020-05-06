@@ -6,7 +6,7 @@ In this project I attempted to predict the classifaction of the price movement o
   - note: The 1 minute time period script is not trained and tested, but programming is completed. The rest of this README will talk about results from the 10 min notebook.
 
 ## Data
-Data was sourced from barchart.com. The data only open, high, low, close, volume, change. Target creation was applied to turn the price movement (change) into a binary classification and Feature Engineering was used to implement technical indicators.
+Data was sourced from barchart.com. The data only contained the following features: open, high, low, close, volume, change. Target creation was applied to turn the price movement (change) into a binary classification and Feature Engineering was used to implement technical indicators.
 
 ## Model
 Academic literature indicated that an ensemble of Convolutional Neural Networks and Long Short-Term Memory Networks produced results beating state of the art architectures for multivariate time series classification problems.
